@@ -203,7 +203,8 @@
   <div class="row hw12">
     <div class="col-md-12 twenty">
       作業程式碼，請放在 src 檔案夾。
-      <input type="button" name="back" onclick="parent.location='./src/index.html'" value="點此觀看...">
+      <input type="button" name="back" onclick="window.open('./src/?model=mediapipe_face_mesh', 'Live video');" value="Live video 點此觀看...">
+      <input type="button" name="back" onclick="window.open('./src02/?model=mediapipe_face_mesh', 'Upload video');" value="Upload video 點此觀看...">
     </div>
   </div>
 
@@ -254,7 +255,7 @@
   <div class="row hw12">
     <div class="col-md-12 twenty d-flex justify-content-center">
         <video id="video1" style="width:100%;max-width:100%;" controls="">
-            <source src="hw03.mp4" type="video/mp4">
+            <source src="hw04.mp4" type="video/mp4">
         </video>
     </div>
   </div>
